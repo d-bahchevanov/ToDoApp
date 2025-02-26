@@ -1,0 +1,90 @@
+body {
+    background-color: #121212;
+    color: #e0e0e0;
+    font-family: 'Poppins', sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+}
+h1 {
+    font-size: 2rem;
+    font-weight: bold;
+    color: #00ffcc;
+}
+.container {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    background-color: #1e1e1e;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.container input {
+    background-color: #121212;
+    border: none;
+    padding: 10px;
+    color: white;
+    outline: none;
+    border-radius: 5px;
+    width: 250px;
+}
+
+.container button {
+    background-color: #00ffcc;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    color: black;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.container button:hover {
+    background-color: #00e6b3;
+}
+.task-list {
+    margin-top: 20px;
+    width: 100%;
+    max-width: 400px;
+}
+
+.task {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #1e1e1e;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+}
+
+.task span {
+    flex-grow: 1;
+    padding-left: 10px;
+}
+
+.task .task-actions {
+    display: flex;
+    gap: 10px;
+}
+
+.task .task-actions button {
+    background-color: #333;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.task .task-actions button:hover {
+    background-color: #555;
+}
+.text-strikethrough {
+    text-decoration: line-through;
+    opacity: 0.6;
+}
